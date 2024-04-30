@@ -8,7 +8,9 @@ function addButton() {
 	if(document.getElementById("instant_download")) return;
 	let path = document.URL.split("/")
 	let file_id = path[path.findIndex((thing) => thing == "files") + 1];
-	let filename = document.getElementsByClassName("section-file-name")[0].getElementsByTagName("p")[0].innerText
+	let sectionFileName = document.getElementsByClassName("section-file-name")
+	if(!sectionFileName[0]) return;
+	let filename = sectionFileName[0].getElementsByTagName("p")[0].innerText
 	let hbox = document.getElementsByClassName("file-details")[0].getElementsByClassName(" split-button")[0]
 	let prototype = hbox.children[0]
 	let button = document.createElement(prototype.tagName)
