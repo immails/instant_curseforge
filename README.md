@@ -1,3 +1,3 @@
 # Instant Curseforge
 
-An addon that adds the instant download button curseforge files. may not support all types of file
+An addon that adds the instant download button for curseforge files. may not support all file types
