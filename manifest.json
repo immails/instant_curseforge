@@ -1,5 +1,5 @@
 {
-	"description": "An addon that adds the instant download button curseforge files. may not support all types of file",
+	"description": "An addon that adds the instant download button for curseforge files.",
 	"manifest_version": 2,
 	"name": "Instant Curseforge",
 	"version": "1.0",
