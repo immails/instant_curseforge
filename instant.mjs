@@ -1,7 +1,7 @@
 if(document.URL.match(/(www\.)?curseforge\.com\/.*files\/\d+/gm)) addButton()
 
 window.addEventListener("scroll", (event) => {
-    addButton();
+    if(document.URL.match(/(www\.)?curseforge\.com\/.*files\/\d+/gm)) addButton()
 })
 
 function addButton() {

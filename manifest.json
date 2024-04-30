@@ -1,19 +1,17 @@
 {
-
-  "description": "An extension that adds the instant download button curseforge files. may not support all types of file",
-  "manifest_version": 2,
-  "name": "InstantCurseforge",
-  "version": "1.0",
-  "homepage_url": "https://immails.su",
-  "icons": {
-    "48": "icons/border-48.png"
-  },
-
-  "content_scripts": [
-    {
-      "matches": ["*://*.curseforge.com/*"],
-      "js": ["instant.mjs"]
-    }
-  ]
-
+	"description": "An addon that adds the instant download button curseforge files. may not support all types of file",
+	"manifest_version": 2,
+	"name": "Instant Curseforge",
+	"version": "1.0",
+	"homepage_url": "https://github.com/immails/instant_curseforge",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.curseforge.com/*"
+			],
+			"js": [
+				"instant.mjs"
+			]
+		}
+	]
 }
