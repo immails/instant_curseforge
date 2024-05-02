@@ -4,6 +4,10 @@
 	"name": "Instant Curseforge",
 	"version": "1.0",
 	"homepage_url": "https://github.com/immails/instant_curseforge",
+	"icons": {
+		"48": "logo-48.png",
+		"96": "logo-96.png"
+	},
 	"content_scripts": [
 		{
 			"matches": [
