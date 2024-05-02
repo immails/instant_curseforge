@@ -2,8 +2,12 @@
 	"description": "An addon that adds the instant download button for curseforge files.",
 	"manifest_version": 2,
 	"name": "Instant Curseforge",
-	"version": "1.0",
+	"version": "1.1",
 	"homepage_url": "https://github.com/immails/instant_curseforge",
+	"icons": {
+		"48": "logo-48.png",
+		"96": "logo-96.png"
+	},
 	"content_scripts": [
 		{
 			"matches": [
