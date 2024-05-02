@@ -17,7 +17,8 @@ function addButton() {
 	let span = document.createElement("span")
 	span.innerText = "Instant Download"
 	button.className = prototype.className
-	button.href = `https://mediafilez.forgecdn.net/files/${Number(file_id.slice(0, 4))}/${Number(file_id.slice(4, 7))}/${filename}`
+	button.href = `https://mediafilez.forgecdn.net/files/${Number(file_id.slice(0, 4))}/${Number(file_id.slice(4, 7))}/${encodeURIComponent(filename)}`
+	button.style.border = "1px solid orangered"
 	button.appendChild(prototype.getElementsByTagName("svg")[0].cloneNode(true))
 	button.appendChild(span)
 	button.id = "instant_download"
